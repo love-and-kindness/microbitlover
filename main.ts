@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
     ready = 1
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(input.rotation(Rotation.Pitch))
+	
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Butterfly)
