@@ -1,0 +1,27 @@
+{
+    "name": "13-12-2021",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit": "github:lzty634158/Tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979",
+        "Yahboom_mbit_IR": "github:nanlearning/mbit_IR#356284f4f172e867301d6e4f72e5c9abc979b3c1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
