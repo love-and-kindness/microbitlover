@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
     ready = 1
 })
 input.onGesture(Gesture.Shake, function () {
-	
+    music.playMelody("C5 A B G A F G E ", 122)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Butterfly)
