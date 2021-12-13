@@ -26,8 +26,7 @@ basic.forever(function () {
             basic.showNumber(time)
         }
     }
-    if (start == 0) {
-        X = input.acceleration(Dimension.X)
+    if (start == 1) {
         Tinybit.CarCtrl(Tinybit.CarState.Car_SpinRight)
         basic.pause(time)
         Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
